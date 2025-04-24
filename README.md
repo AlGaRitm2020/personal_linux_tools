@@ -13,7 +13,11 @@ I use wg-quick, and I need to type my password to enable/disable vpn every time.
 Clears last N lines from history **(NOT ADDED)**
 
 ## 3. envv.sh
-Simple allocation of permit variable in bash **(NOT ADDED)**
+Simple allocation of permit variable in bash
+Installation: `git clone https://github.com/AlGaRitm2020/personal_linux_tools; cd personal_linux_tools; chmod +x envv.sh; echo .$(pwd)/envv.sh >> ~/.bashrc;`
+Usage:
+- `envv.sh --new VAR VALUE` - adding new variable to 
+- `envv.sh --show` - shows all variables
 
 ## 4. forw.c
 Sending symbols or or entire string arrays to other terminals(with custom typing speed). Look magically **(NOT ADDED)**
